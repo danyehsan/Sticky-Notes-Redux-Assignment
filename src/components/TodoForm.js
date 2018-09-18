@@ -35,11 +35,15 @@ class TodoForm extends React.Component {
   }
 }
 
+
+
 const mapStateToProps = (state) => {
   return { id: state.nextId }
 }
 
 export default connect(mapStateToProps)(TodoForm)
+
+
 
 
 

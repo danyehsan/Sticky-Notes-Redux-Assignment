@@ -8,7 +8,7 @@ const styles = {
   },
   complete: {
     textDecoration: 'line-through',
-    color: 'green',
+    color: 'red',
   }
 }
 
